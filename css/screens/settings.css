@@ -1,0 +1,46 @@
+.settings__setting {
+  padding: 20px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting:hover {
+  background-color: var(--hover-color);
+}
+
+.settings__setting:last-child {
+  border: none;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.notice-badge {
+  background-color: tomato;
+  color: #ffffff;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.notice-badge__text {
+  margin-top: 4px;
+  margin-left: 5.5px;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}

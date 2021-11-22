@@ -1,0 +1,61 @@
+#chaeyoung {
+  background: url("/images/Chaeyoung_bg.png") no-repeat center/cover;
+}
+
+.profile {
+  margin-top: 25px;
+  background: var(--blur);
+}
+
+.fa-times {
+  position: fixed;
+  top: 35px;
+  left: 10px;
+  color: white;
+}
+
+.profile-img {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile-img__img > img {
+ margin-right: 0px;
+ width: 100px;
+ height: 100px;
+}
+
+.profile-img__span {
+  margin: 10px 0px 200px 0px;
+  color: white;
+}
+
+.profile-options {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid white;
+}
+
+.profile-options__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.profile-options__option > i {
+  color: white;
+}
+
+.profile-options__option > span {
+  margin: 10px 0px;
+  color: white;
+}
